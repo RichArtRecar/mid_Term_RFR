@@ -1,0 +1,218 @@
+<!doctype html>
+<html ng-app="customersApp" class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motor Yachts | Hatteras Yachts</title>
+
+  <script src="js/vendor/angular.min.js"></script>
+  <script src="js/vendor/angular-animate.min.js"></script>
+  <script src="js/vendor/angular-route.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script src="js/vendor/jquery.js"></script>
+<script src="datatables/datatables.min.js"></script>
+  
+  <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'> 
+  
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="datatables/datatables.css"
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/mainContent.css">
+  <link rel="stylesheet" href="css/theTimeline.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+<!-- Begin Nav -->
+<div data-sticky-container>
+  <div class="sticky" data-sticky data-margin-top="0">
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+           <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+             <button class="menu-icon" type="button" data-toggle></button>
+           </span>
+        <a class="topbar-responsive-logo" href="#"><strong>Hatteras</strong></a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">MOTOR YACHTS</a></li>
+            <li><a href="index.html#!/sportfish">SPORTFISH</a></li>
+            <li><a href="index.html#!/orders">EXPERIENCE</a></li>
+            <li><a href="index.html#!/request">REQUEST</a></li>
+            <li><a href="index.html#!/experience">OUR STORY</a></li>
+            <li><a href="index.html#!/finddealer">FIND A DEALER</a></li>
+            <li>
+              <button type="button" class="button hollow topbar-responsive-button">INVENTORY</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<!-- End Nav -->
+
+
+
+
+<div ng-view></div>
+
+
+<!-- Footer -->
+<footer class="marketing-site-footer">
+  <div class="grid-x grid-padding-x">
+    <div class="medium-4 cell">
+      <h4 class="marketing-site-footer-name"></h4>
+      <p></p>
+      <ul class="menu marketing-site-footer-menu-social simple">
+        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="medium-4 cell">
+      <h4 class="marketing-site-footer-title">Contact Info</h4>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>Somewhere<br>Over The Rainbow</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>Phone</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <p>Richard.recar@outlook.com</p>
+      </div>
+    </div>
+    <div class="large-4 cell">
+      <h4 class="marketing-site-footer-title">Photos</h4>
+      <div class="grid-x grid-padding-y">
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="large-4 medium-6 small-12 cell">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Begin Footer-->
+  <div class="marketing-site-footer-bottom">
+    <div class="row large-unstack align-middle">
+      <div class="column">
+        <p>&copy; Recar - 2018 All rights reserved</p>
+      </div>
+      <div class="column">
+        <ul class="menu marketing-site-footer-bottom-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer-->
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="datatables/DataTables-1.10.18/css/dataTables.foundation.css"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+
+
+<script>
+    var app = angular.module('customersApp',['ngRoute']);
+    app.config(function($routeProvider) {
+        $routeProvider.when('/',
+            {
+                controller:'CustomersController',
+                templateUrl: 'app/views/customers.html'
+            })
+            .when('/orders',
+                {
+                    controller: 'OrdersController',
+                    templateUrl: 'app/views/orders.html'
+                })
+            .when('/customers',
+                {
+                    controller: 'CustomerController',
+                    templateUrl: 'app/views/customers.html'
+                })
+            .when('/experience',
+                {
+                    controller: 'ExperienceController',
+                    templateUrl: 'app/views/experience.html'
+                })
+            .when('/sportfish',
+                {
+                    controller: 'SportfishController',
+                    templateUrl: 'app/views/sportfish.html'
+                })
+            .when('/request',
+                {
+                    controller: 'RequestController',
+                    templateUrl: 'app/views/request.html'
+                })
+    });
+    app.controller('OrdersController', function($scope){
+        $scope.customerID = 5;
+    });
+    app.controller('CustomerController', function($scope){
+        $scope.customerID = 5;
+    });
+    app.controller('ExperienceController', function($scope){
+        $scope.customerID = 5;
+    });
+    app.controller('SportfishController', function($scope){
+        $scope.customerID = 5;
+    });
+    app.controller('RequestController', function($scope){
+        $scope.customerID = 5;
+    });
+    app.controller('CustomersController', function($scope) {
+        $scope.customers = [
+           
+        ];
+    });
+</script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
